@@ -1,4 +1,27 @@
----
+```
+# Usage Examples
+
+## Finding and Installing a Smart Tool
+```bash
+amplifier find "text summarizer"
+amplifier install "text summarizer"
+```
+
+## Invoking a Smart Tool
+```bash
+amplifier invoke "text summarizer" --input "Long article text here..."
+```
+
+## Creating a New Smart Tool
+```bash
+amplifier create "my-new-tool" --description "Tool to analyze sentiment in customer feedback"
+```
+
+## Publishing a Smart Tool
+```bash
+amplifier publish "my-new-tool"
+```
+```---
 name: amplifier-smart-tools
 description: >-
   Find, install, invoke, create, and publish Amplifier Smart Tools: standalone libraries
